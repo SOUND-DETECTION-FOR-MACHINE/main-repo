@@ -47,3 +47,12 @@
 11주차 (6.3 - 6.9) - DCASE 2024 Challenge 제출 및 2023 Challenge 점수 순위 비교<br>
 12주차 (6.10 – 6.16) – 마감일 까지 피드백 및 재 제출<br>
 13주차 (6.17 - 6.24) - DCASE 2024 Challenge 최종점수 확인
+
+<h2>7. 데이터 세트 다운로드 </h2>
+
+- 개발 데이터세트
+  - https://zenodo.org/record/7882613
+- 추가 훈련 데이터세트
+  - https://zenodo.org/record/7830345
+- 평가 데이터세트
+  - https://zenodo.org/record/7860847
