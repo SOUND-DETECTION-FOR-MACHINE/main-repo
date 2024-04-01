@@ -27,12 +27,12 @@
 - (2학기계획)스마트 공장을 위한 음향 이벤트 탐지 어플리케이션 개발
 
 <h2>5. 관련 문헌 조사</h2>
-"DCASE 2023 Challenge Task 2: First-Shot Unsupervised Anomalous Sound Detection for Machine Condition Monitoring" 논문 요약
-
+<a href= "https://arxiv.org/abs/2305.07828"> [DCASE 2023 Challenge Task 2: First-Shot Unsupervised Anomalous Sound Detection for Machine Condition Monitoring 논문 요약 ]</a>
 - Oversampling for Imbalance Compensation (불균형 보상을 위한 오버샘플링): 불균형한 데이터셋에서 발생하는 클래스 불균형을 보상하기 위해 사용된다. 소리 이벤트의 빈도가 적은 클래스에 대해 오버샘플링을 수행하여 데이터셋을 균형있게 만들어 모델의 학습을 돕는다.
 - Synthetic Data Generation for Robust Detection (로버스트 감지를 위한 합성 데이터 생성): 합성 데이터를 생성하여 모델의 감지 능력을 향상시킨다. 이는 실제 데이터를 변형하거나 합성하여 다양한 환경에서 발생할 수 있는 소리 이벤트에 대한 모델의 감지 능력을 개선한다.
 - Attribute ID Classification using Pre-trained Models (사전 학습 모델을 사용한 속성 ID 분류): 사전 학습된 모델을 이용하여 소리 이벤트의 속성을 식별하고 분류한. 이를 통해 소리 이벤트의 다양한 속성을 효과적으로 추출하고 분류할 수 있다.
-- Python Librosa 라이브러리: [Librosa 설명] (https://wikidocs.net/192879) , [Librosa 사용법] (https://hyongdoc.tistory.com/404)
+- Python Librosa 라이브러리: [Librosa 설명](https://wikidocs.net/192879) , [Librosa 사용법](https://hyongdoc.tistory.com/404)
+- TensorFlow : [TensorFlow 소개](https://www.tensorflow.org/learn?hl=ko&_gl=1*zjdww2*_up*MQ..*_ga*Mzc4MTA5NDY5LjE3MTE5NjY0MTE.*_ga_W0YLR4190T*MTcxMTk2NjQxMS4xLjAuMTcxMTk2NjQyMS4wLjAuMA..), [TensorFlow 사용법](https://www.tensorflow.org/tutorials?hl=ko&_gl=1*1vpzq5c*_up*MQ..*_ga*Mzc4MTA5NDY5LjE3MTE5NjY0MTE.*_ga_W0YLR4190T*MTcxMTk2NjQxMS4xLjAuMTcxMTk2NjQyMS4wLjAuMA..)
   
 <h2>6. 연구개발계획</h2>
 1차 (4.1 - 4.10) - Oversampling 기법에 대한 이해와 코드 구현 <br>
