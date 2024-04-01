@@ -32,7 +32,8 @@
 - Oversampling for Imbalance Compensation (불균형 보상을 위한 오버샘플링): 불균형한 데이터셋에서 발생하는 클래스 불균형을 보상하기 위해 사용된다. 소리 이벤트의 빈도가 적은 클래스에 대해 오버샘플링을 수행하여 데이터셋을 균형있게 만들어 모델의 학습을 돕는다.
 - Synthetic Data Generation for Robust Detection (로버스트 감지를 위한 합성 데이터 생성): 합성 데이터를 생성하여 모델의 감지 능력을 향상시킨다. 이는 실제 데이터를 변형하거나 합성하여 다양한 환경에서 발생할 수 있는 소리 이벤트에 대한 모델의 감지 능력을 개선한다.
 - Attribute ID Classification using Pre-trained Models (사전 학습 모델을 사용한 속성 ID 분류): 사전 학습된 모델을 이용하여 소리 이벤트의 속성을 식별하고 분류한. 이를 통해 소리 이벤트의 다양한 속성을 효과적으로 추출하고 분류할 수 있다.
-
+- Python Librosa 라이브러리: [Librosa 설명] (https://wikidocs.net/192879) , [Librosa 사용법] (https://hyongdoc.tistory.com/404)
+  
 <h2>6. 연구개발계획</h2>
 1주차(3.25 - 3.31) - DCASE 2023 Task 2 논문들 상세 분석 및 요약<br>
 2주차(4.1 - 4.7) - 다양한 논문에서 사용된 기술 및 알고리즘 리뷰<br>
